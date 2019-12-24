@@ -1,0 +1,40 @@
+html {
+    background: none;
+}
+
+body {
+    color: #FFFFFF;
+}
+
+#page {
+    background: url("/img/purplebg.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home-subtitle {
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+#home-title img {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+#site-header, #mobile-menu {
+    background-color: #9345cc;
+}
+
+#site-header {
+    box-shadow: -1px -2px 3px rgba(70, 59, 59, 0.45);
+}
+
+#mobile-menu {
+    box-shadow: -1px -2px 3px 0 rgba(70, 59, 59, 0.45);
+}
